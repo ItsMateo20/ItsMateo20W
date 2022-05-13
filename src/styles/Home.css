@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: -webkit-linear-gradient(141deg, rgba(46, 146, 201, 0.34) 0%, rgba(224, 108, 58, 0.34) 100%), url("../assets/images/background.png"), no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: FiraCode-Light;
+}
+
+.titlemove {
+  margin-top: -100px;
+  margin-left: -9rem;
+  font-size: 2rem;
+}
+
+.descriptionmove {
+  margin-top: -1rem;
+  margin-left: -8rem;
+  font-size: 1.2rem;
+}
+
+.titlecolor {
+  color: rgba(99, 106, 107, 0.848);
+}
+
+.descriptioncolor {
+  color: rgba(155, 159, 161, 0.848);
+}
+
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 120px;
+  padding: 9rem 11rem;
+  text-align: left;
+  color: inherit;
+  background-color: #4d4d4e4a;
+  text-decoration: none;
+  border: 1px solid #4d4d4e4a;
+  border-radius: 10px;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
